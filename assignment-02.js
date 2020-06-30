@@ -28,7 +28,7 @@ startButton.addEventListener('click', (event) => {
    light.style.background = "green";  //change small light to green
    setTimeout(() => {     //3 seconds after click, call play function to begin the game
         play();
-      },3000);
+      },1000);
 });
 
 function start(){     //function that gets called to reset the game when a player loses
